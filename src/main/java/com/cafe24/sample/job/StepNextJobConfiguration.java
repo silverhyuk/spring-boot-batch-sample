@@ -10,6 +10,10 @@ import org.springframework.batch.repeat.RepeatStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+
+/**
+ * program args [--job.name=stepNextJob verion=2]
+ */
 @Slf4j
 @Configuration
 @RequiredArgsConstructor
